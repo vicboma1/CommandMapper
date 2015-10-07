@@ -32,7 +32,7 @@ commandMapper.addCommand(command,runnable);
 ```
 Add Command Callable<T>
 ```java
-final String command = "commandRunnable";
+final String command = "commandCalable";
 final Callable<T> callable = (Callable<T>) () -> { ...  return true; };
 commandMapper.addCommand(command,callable);
 ```
