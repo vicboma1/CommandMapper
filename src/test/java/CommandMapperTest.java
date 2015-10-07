@@ -1,8 +1,8 @@
 import api.CommandMapperDictionary;
+import impl.CommandMapper;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import impl.CommandMapper;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.CompletableFuture;
