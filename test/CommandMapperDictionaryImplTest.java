@@ -2,7 +2,7 @@ import api.CommandMapperDictionary;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import src.CommandMapperDictionaryImpl;
+import impl.CommandMapperDictionaryImpl;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.CompletableFuture;

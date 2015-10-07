@@ -1,6 +1,6 @@
 package dsl;
 
-import src.CommandMapper;
+import impl.CommandMapper;
 
 import java.util.concurrent.Callable;
 

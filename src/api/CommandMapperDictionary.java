@@ -1,6 +1,6 @@
 package api;
 
-import src.CommandMapperDictionaryImpl;
+import impl.CommandMapperDictionaryImpl;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.CompletableFuture;
