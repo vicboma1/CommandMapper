@@ -1,5 +1,6 @@
 language: java
-sudo: false
 script: mvn test -f ./source/pom.xml
 jdk:
   - oraclejdk8
+after_success:
+  - mvn clean test saga:coverage cobertura:cobertura coveralls:report
