@@ -74,3 +74,5 @@ Is used to represent and encapsulate all the information needed to call a method
 [![Build Status](https://travis-ci.org/vicboma1/CommandMapper.svg?branch=master)](https://travis-ci.org/vicboma1/CommandMapper)
 
 [![Coverage Status](https://coveralls.io/repos/vicboma1/CommandMapper/badge.svg?branch=master&service=github)](https://coveralls.io/github/vicboma1/CommandMapper?branch=master)
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/)
