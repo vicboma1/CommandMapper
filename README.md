@@ -71,7 +71,7 @@ Is used to represent and encapsulate all the information needed to call a method
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vicboma1/commandmapper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-[![Build Status](https://travis-ci.org/vicboma1/CommandMapper.svg?branch=master)](https://travis-ci.org/vicboma1/CommandMapper)
+[![Build Status](https://travis-ci.org/vicboma1/CommandMapper.svg?branch=master)](https://travis-ci.org/vicboma1/CommandMapper) 
 
 [![Coverage Status](https://coveralls.io/repos/vicboma1/CommandMapper/badge.svg?branch=master&service=github)](https://coveralls.io/github/vicboma1/CommandMapper?branch=master)
 
