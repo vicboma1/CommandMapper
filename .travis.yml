@@ -1,8 +1,9 @@
 language: java
+sudo: false
 script: mvn test -f ./source/pom.xml
 jdk:
   - oraclejdk8
 after_success:
-  - mvn clean cobertura:cobertura coveralls:report
+  - mvn clean cobertura:cobertura org.eluder.coveralls:coveralls-maven-plugin:report
 
 
