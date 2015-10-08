@@ -1,5 +1,7 @@
 # CommandMap Design Pattern - Behavioral
 
+[![Build Status](https://travis-ci.org/vicboma1/CommandMapper.svg?branch=master)](https://travis-ci.org/vicboma1/CommandMapper) [![Coverage Status](https://coveralls.io/repos/vicboma1/CommandMapper/badge.svg?branch=master&service=github)](https://coveralls.io/github/vicboma1/CommandMapper?branch=master) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vicboma1/commandmapper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 The CommandMapper class implements a domain specific language (DSL) with next interfaces:
 
 ```java
@@ -9,7 +11,7 @@ CommandDictionary
 CommandExecutable
 CommandUnmapper
 ```
-which provides one method for mapping commands and they are run  asynchronously or synchronously.
+which provides one method for mapping commands and they are run asynchronously or synchronously.
 
 #Manual
 
@@ -66,13 +68,3 @@ final int size = commandMapper.size();
 ```
 
 
-Is used to represent and encapsulate all the information needed to call a method at a later time.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vicboma1/commandmapper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
-[![Build Status](https://travis-ci.org/vicboma1/CommandMapper.svg?branch=master)](https://travis-ci.org/vicboma1/CommandMapper) 
-
-[![Coverage Status](https://coveralls.io/repos/vicboma1/CommandMapper/badge.svg?branch=master&service=github)](https://coveralls.io/github/vicboma1/CommandMapper?branch=master)
-
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/)
