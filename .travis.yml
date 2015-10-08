@@ -10,7 +10,6 @@ cache:
 jdk:
   - oraclejdk8
 script:
-  - cd source
   - jdk_switcher use oraclejdk8
   - mvn test -f ./source/pom.xml
 
