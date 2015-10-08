@@ -1,6 +1,19 @@
 language: java
-script: mvn test -f ./source/pom.xml
+sudo: false
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+cache:
+  directories:
+       - $HOME/.m2
 jdk:
   - oraclejdk8
+script:
+  - cd source
+  - jdk_switcher use oraclejdk8
+  - mvn test -f ./source/pom.xml
+
 after_success:
   - mvn clean test saga:coverage cobertura:cobertura coveralls:report
+
